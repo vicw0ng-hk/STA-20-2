@@ -1,2 +1,2 @@
 # STA-20-2
-My work as Student Teaching Assistant for COMP2113_ENGG1340_2DE Programming technologies [Section 2DE] [2020] @ HKU
+My work as Student Teaching Assistant for [COMP2113](https://www.cs.hku.hk/index.php/programmes/course-offered?infile=2020/comp2113.html)/[ENGG1340](https://www.cs.hku.hk/index.php/programmes/course-offered?infile=2020/engg1340.html) @ [The University of Hong Kong](https://hku.hk), in Semester 2, Academic Year 2020-21. 
