@@ -3,11 +3,11 @@ My work as Student Teaching Assistant for [COMP2113](https://www.cs.hku.hk/index
 
 ### Problem Solving Session 1 - 23 Feb 2021
 
-[Module 3 - C/C++ Basics](M3.md)
+[Module 3 - C++ Basics](M3.md)
 
 ### Problem Solving Session 2 - 02 Mar 2021
 
-Module 5 - Functions
+Module 5 - Functions and Array Basics
 
 ### Problem Solving Session 3 - 23 Mar 2021
 
