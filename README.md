@@ -7,7 +7,7 @@ My work as Student Teaching Assistant for [COMP2113](https://www.cs.hku.hk/index
 
 ### Problem Solving Session 2 - 02 Mar 2021
 
-Module 5 - Functions and Array Basics
+[Module 5 - Functions and Array Basics](M5.md)
 
 ### Problem Solving Session 3 - 23 Mar 2021
 
