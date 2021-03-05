@@ -37,19 +37,35 @@ Or better, I recommend using `code-server --port <port_number>` to specify a por
 
 Before opening in local browser, you should forward to ports to your local machine. 
 
-If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run step 2. Otherwise, you need to run Step 1 and 2.
+If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run [step 2](#step-2). Otherwise, you need to run Steps [1](#step-1) and [2](#step-2).
 
 #### Step 1
-```
+```bash
 ssh -L <port_number>:localhost:<port_number> <account>@gatekeeper.cs.hku.hk
 # you can substitute gatekeeper with gatekeeper2 if gatekeeper is too busy
 ```
 
 #### Step 2
-```
+```bash
 # if you are running code-server on academy11
 ssh -L <port_number>:localhost:<port_number> <account>@academy11.cs.hku.hk
 # or,
 # if you are running code-server on academy21
 ssh -L <port_number>:localhost:<port_number> <account>@academy21.cs.hku.hk
 ```
+
+Open `localhost:<port_number>` in your local browser. It should prompt you to input a password, just check out the file it mentions for password. 
+
+And, you are in!
+
+#### Change password and hide your password
+
+Anything you store on the department server is accessible by the department (The same goes for the University and you Google Drive, Microsoft OneDrive, etc on your University account). DO NOT STORE ANYTHING PERSONAL IN PLAINTEXT, including passwords. 
+
+In the file storing your password, change `password` to `hashed-password` and hash a password of your choice. Here's [how](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed). 
+
+#### Install it as a separate app
+
+On browsers such as Google Chrome, you can install the webpage as a [separate web app](https://support.google.com/chrome_webstore/answer/3060053?hl=en). 
+
+If you run every time with your own port number in Running, and that port number is not likely to be used by others, then you can use that port every time and your port web app would still work. 
