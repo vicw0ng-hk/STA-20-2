@@ -42,15 +42,14 @@ If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/gu
 #### Step 1
 ```
 ssh -L <port_number>:localhost:<port_number> <account>@gatekeeper.cs.hku.hk
+# you can substitute gatekeeper with gatekeeper2 if gatekeeper is too busy
 ```
 
 #### Step 2
 ```
 # if you are running code-server on academy11
 ssh -L <port_number>:localhost:<port_number> <account>@academy11.cs.hku.hk
-```
-Or
-```
+# or,
 # if you are running code-server on academy21
 ssh -L <port_number>:localhost:<port_number> <account>@academy21.cs.hku.hk
 ```
