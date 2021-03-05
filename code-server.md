@@ -31,7 +31,7 @@ Use the [Standalone Releases](https://github.com/cdr/code-server/blob/main/docs/
 
 On `academy11`/`academy21`, run `code-server`. This will have code-server running. Check out the port number (`<port_number>`) it is running on. 
 
-Or better, I recommend using `code-server --port <port_number>` to specify a port number, but avoid using [commonly used ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports). This will help if you want to install a separate web app for VS Code on `academy`.
+Or better, I recommend using `code-server --port <port_number>` to specify a port number, but avoid using [commonly used ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports). (Think of a unique number unlikely to be thought of by others) This will help if you want to install a separate web app for VS Code on `academy`.
 
 ### Opening in local browser
 
@@ -58,14 +58,20 @@ Open `localhost:<port_number>` in your local browser. It should prompt you to in
 
 And, you are in!
 
-#### Change password and hide your password
+### Change password and hide your password
 
 Anything you store on the department server is accessible by the department (The same goes for the University and you Google Drive, Microsoft OneDrive, etc on your University account). DO NOT STORE ANYTHING PERSONAL IN PLAINTEXT, including passwords. 
 
 In the file storing your password, change `password` to `hashed-password` and hash a password of your choice. Here's [how](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed). 
 
-#### Install it as a separate app
+### Install it as a separate app
 
 On browsers such as Google Chrome, you can install the webpage as a [separate web app](https://support.google.com/chrome_webstore/answer/3060053?hl=en). 
 
-If you run every time with your own port number in Running, and that port number is not likely to be used by others, then you can use that port every time and your port web app would still work. 
+If you run every time with your own port number (`<port_number>`) in [Running](#running), and that port number is not likely to be already taken by others, then you can use that port every time and your port web app would still work. 
+
+### Extensions
+
+Note that not all extensions will work. Some of them require certain packages to be installed on the server and since you don't have root privileges that's not possible. 
+
+Still a large number of extensions will work. For example, [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) will help you compile and run code. Just remember to go to the extension's settings and add arguments `-pedantic-errors -std=c++11` after `g++` in `code-runner.executorMap`'s `cpp` entry. 
