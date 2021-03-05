@@ -37,7 +37,7 @@ Or better, I recommend using `code-server --port <port_number>` to specify a por
 
 Before opening in local browser, you should forward to ports to your local machine. 
 
-If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run [*step 2*](#step-2). Otherwise, you need to run Steps [*1*](#step-1) and [*2*](#step-2).
+If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run [*Step 2*](#step-2). Otherwise, you need to run Steps [*1*](#step-1) and [*2*](#step-2).
 
 #### Step 1
 ```bash
