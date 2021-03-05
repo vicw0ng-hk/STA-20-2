@@ -37,7 +37,7 @@ Or better, I recommend using `code-server --port <port_number>` to specify a por
 
 Before opening in local browser, you should forward to ports to your local machine. 
 
-If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run [*Step 2*](#step-2). Otherwise, you need to run Steps [*1*](#step-1) and [*2*](#step-2).
+If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run [**Step 2**](#step-2). Otherwise, you need to run Steps [**1**](#step-1) and [**2**](#step-2).
 
 #### Step 1
 ```bash
@@ -68,7 +68,7 @@ In the file storing your password, change `password` to `hashed-password` and ha
 
 On browsers such as Google Chrome, you can install the webpage as a [separate web app](https://support.google.com/chrome_webstore/answer/3060053?hl=en). 
 
-If you run every time with your own port number (`<port_number>`) in [*Running*](#running), and that port number is not likely to be already taken by others, then you can use that port every time and your port web app would still work. 
+If you run every time with your own port number (`<port_number>`) in [**Running**](#running), and that port number is not likely to be already taken by others, then you can use that port every time and your port web app would still work. 
 
 ### Extensions
 
