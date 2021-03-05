@@ -23,15 +23,34 @@ It provides an integratd coding environment so you don't have to switch apps bet
 
 ### Installation
 
-Since students don't have root privileges on department server, installation process can be a bit tricky. 
+Since students don't have root privileges on department servers, installation process can be a bit tricky. 
 
 Use the [Standalone Releases](https://github.com/cdr/code-server/blob/main/docs/install.md#standalone-releases) of the code-server repo to install. 
 
 ### Running
 
-On `academy11`/`academy21`, run `code-server`. This will have code-server running. Check out the port number it is running on. 
+On `academy11`/`academy21`, run `code-server`. This will have code-server running. Check out the port number (`<port_number>`) it is running on. 
 
-Or better, I recommend using `code-server --port <number>` to specify a port number. This will help if you want to install a separate web app for VS Code on `academy`.
+Or better, I recommend using `code-server --port <port_number>` to specify a port number, but avoid using [commonly used ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports). This will help if you want to install a separate web app for VS Code on `academy`.
 
 ### Opening in local browser
 
+Before opening in local browser, you should forward to ports to your local machine. 
+
+If you are already connected to [HKUVPN](https://www.its.hku.hk/documentation/guide/network/remote/hkuvpn2fa), just run step 2. Otherwise, you need to run Step 1 and 2.
+
+#### Step 1
+```
+ssh -L <port_number>:localhost:<port_number> <account>@gatekeeper.cs.hku.hk
+```
+
+#### Step 2
+```
+# if you are running code-server on academy11
+ssh -L <port_number>:localhost:<port_number> <account>@academy11.cs.hku.hk
+```
+Or
+```
+# if you are running code-server on academy21
+ssh -L <port_number>:localhost:<port_number> <account>@academy21.cs.hku.hk
+```
