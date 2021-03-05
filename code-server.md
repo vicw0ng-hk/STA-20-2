@@ -4,7 +4,7 @@ Run [VS Code](https://github.com/microsoft/vscode) on the [CS department](https:
 
 ### Current method of coding on `academy` server
 
-- Text editors such as [VIM](https://github.com/vim/vim), [GNU nano](https://www.nano-editor.org/) in terminal after [`SSH`](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/ssh.jsp#connectcs)
+- Text editors such as [VIM](https://github.com/vim/vim), [GNU nano](https://www.nano-editor.org/) in terminal after [SSH](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/ssh.jsp#connectcs)
 - Text editors such as [Gedit](https://gitlab.gnome.org/GNOME/gedit), [Atom](https://github.com/atom/atom) after connecting via [X2Go](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/x2go/index.jsp)
 - Using local text editors to open files during SFTP connection.
 - ...
