@@ -5,7 +5,7 @@ Run [VS Code](https://github.com/microsoft/vscode) on the [CS department](https:
 ### Current method of coding on `academy` server
 
 - Text editors such as [VIM](https://github.com/vim/vim), [GNU nano](https://www.nano-editor.org/) in terminal after [`SSH`](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/ssh.jsp#connectcs)
-- Text editors such as [Gedit](https://gitlab.gnome.org/GNOME/gedit) after connecting via [X2Go](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/x2go/index.jsp)
+- Text editors such as [Gedit](https://gitlab.gnome.org/GNOME/gedit), [Atom](https://github.com/atom/atom) after connecting via [X2Go](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/x2go/index.jsp)
 - Using local text editors to open files during SFTP connection.
 - ...
 
@@ -20,4 +20,18 @@ It requires less bandwidth than X2Go and hence is a lot smoother.
 It provides an integratd coding environment so you don't have to switch apps between writing and compiling.
 
 ...
+
+### Installation
+
+Since students don't have root privileges on department server, installation process can be a bit tricky. 
+
+Use the [Standalone Releases](https://github.com/cdr/code-server/blob/main/docs/install.md#standalone-releases) of the code-server repo to install. 
+
+### Running
+
+On `academy11`/`academy21`, run `code-server`. This will have code-server running. Check out the port number it is running on. 
+
+Or better, I recommend using `code-server --port <number>` to specify a port number. This will help if you want to install a separate web app for VS Code on `academy`.
+
+### Opening in local browser
 
