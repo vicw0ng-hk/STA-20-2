@@ -62,7 +62,7 @@ And, you are in!
 
 Anything you store on the department server is accessible by the department (The same goes for the University and you Google Drive, Microsoft OneDrive, etc on your University account). DO NOT STORE ANYTHING PERSONAL IN PLAINTEXT, including passwords. 
 
-In the file storing your password, change `password` to `hashed-password` and hash a password of your choice. Here's [how](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed). 
+In the file storing your password, change `password` to `hashed-password` and hash a password of your choice. See [Guide](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed). 
 
 ### Install it as a separate app
 
