@@ -15,7 +15,7 @@ My work as Student Teaching Assistant for [COMP2113](https://www.cs.hku.hk/index
 
 ### Problem Solving Session 3 - 23 Mar 2021
 
-Module 6
+[Module 6 - Arrays & Strings](M6.md)
 
 ### Problem Solving Session 4 - 30 Mar 2021
 
