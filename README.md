@@ -19,7 +19,7 @@ My work as Student Teaching Assistant for [COMP2113](https://www.cs.hku.hk/index
 
 ### Problem Solving Session 4 - 30 Mar 2021
 
-Module 7
+[Module 7 - Structs & Recursion](M7.md)
 
 ### Problem Solving Session 5 - 13 Apr 2021
 
