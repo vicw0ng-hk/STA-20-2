@@ -84,4 +84,4 @@ Because the app is a few hundred MB, and you only have a 5GB disk quota on acade
 
 Differences to initial install:
 
-Before `ln -s ~/.local/lib/code-server-3.9.2/bin/code-server ~/.local/bin/code-server`, execute `rm ~/.local/bin/code-server` and `rm -rf ~/.local/lib/code-server-<version>` (replace `<version>` with the version of the older app), the first you must do before the `ln` line, the latter you can do afterwards.
+Before `ln -s ~/.local/lib/code-server-<new-version>/bin/code-server ~/.local/bin/code-server`, execute `rm ~/.local/bin/code-server` and `rm -rf ~/.local/lib/code-server-<old-version>` (of course, replace `<old-version>` with the version of the older app), the first you must do before the `ln` line, the latter you can do afterwards.
