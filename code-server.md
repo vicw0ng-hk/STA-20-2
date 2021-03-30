@@ -80,7 +80,7 @@ Still a large number of extensions will work. For example, [Code Runner](https:/
 
 When there is an update, it will prompt you with the message. Or, you could also take notice of the development of code-server yourself, watching their repo.
 
-Because the app is a few hundred MB, and you only have 5G disk quota on academy, you need to delete the old version's file when install the new version.
+Because the app is a few hundred MB, and you only have a 5GB disk quota on academy, you need to delete the old version when installing the new version.
 
 Differences to initial install:
 
