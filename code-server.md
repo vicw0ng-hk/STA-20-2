@@ -4,9 +4,9 @@ Run [VS Code](https://github.com/microsoft/vscode) on the [CS department](https:
 
 ### Current method of coding on `academy` server
 
-- Text editors such as [VIM](https://github.com/vim/vim), [GNU nano](https://www.nano-editor.org/) in terminal after [SSH](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/ssh.jsp#connectcs);
-- Text editors such as [Gedit](https://gitlab.gnome.org/GNOME/gedit), [Atom](https://github.com/atom/atom) after connecting via [X2Go](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/x2go/index.jsp);
-- Using local text editors to open files during SFTP connection;
+- CLI Text editors such as [VIM](https://github.com/vim/vim), [GNU nano](https://www.nano-editor.org/) in terminal after [SSH](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/ssh.jsp#connectcs) in a terminal;
+- GUI Text editors such as [Gedit](https://gitlab.gnome.org/GNOME/gedit), [Atom](https://github.com/atom/atom) after connecting via [X2Go](https://intranet.cs.hku.hk/csintranet/contents/technical/howto/x2go/index.jsp);
+- Using local text editors to open files over SFTP connection;
 - ...
 
 ### Why code-server?
@@ -17,7 +17,7 @@ It is easier to get used to than Vim and nano;
 
 It requires less bandwidth than X2Go and hence is a lot smoother; 
 
-It provides an integratd coding environment so you don't have to switch apps between writing and compiling; 
+It provides an integrated coding environment so you don't have to switch apps between writing and compiling; 
 
 ...
 
@@ -75,3 +75,13 @@ If you run every time with your own port number (`<port_number>`) in [**Running*
 Note that not all extensions will work. Some of them require certain packages to be installed on the server and since you don't have root privileges that's not possible. 
 
 Still a large number of extensions will work. For example, [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) will help you compile and run code. Just remember to go to the extension's settings and add arguments `-pedantic-errors -std=c++11` after `g++` in `code-runner.executorMap`'s `cpp` entry. 
+
+### Update
+
+When there is an update, it will prompt you with the message. Or, you could also take notice of the development of code-server yourself, watching their repo.
+
+Because the app is a few hundred MB, and you only have 5G disk quota on academy, you need to delete the old version's file when install the new version.
+
+Differences to initial install:
+
+Before `ln -s ~/.local/lib/code-server-3.9.2/bin/code-server ~/.local/bin/code-server`, execute `rm ~/.local/bin/code-server` and `rm -rf ~/.local/lib/code-server-<version>` (replace `<version>` with the version of the older app), the first you must do before the `ln` line, the latter you can do afterwards.
