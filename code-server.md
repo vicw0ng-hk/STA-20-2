@@ -74,7 +74,7 @@ If you run every time with your own port number (`<port_number>`) in [**Running*
 
 Note that not all extensions will work. Some of them require certain packages to be installed on the server and since you don't have root privileges that's not possible. 
 
-Still a large number of extensions will work. For example, [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) will help you compile and run code. Just remember to go to the extension's settings and add arguments `-pedantic-errors -std=c++11` after `g++` in `code-runner.executorMap`'s `cpp` entry. 
+Still a large number of extensions will work. For example, [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) will help you compile and run code. Just remember to go to the extension's settings and add arguments `-pedantic-errors -std=c++11` after `g++` in `code-runner.executorMap`'s `cpp` entry. And in order to interact with running programs, enable `Run in Terminal` option to facilitate terminal input. 
 
 ### Update
 
