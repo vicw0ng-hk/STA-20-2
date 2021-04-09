@@ -23,7 +23,7 @@ My work as Student Teaching Assistant for [COMP2113](https://www.cs.hku.hk/index
 
 ### Problem Solving Session 5 - 13 Apr 2021
 
-Module 8
+[Module 8 - Pointers & Dynamic Arrays](M8.md)
 
 ### Problem Solving Session 6 - 20 Apr 2021
 
